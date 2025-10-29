@@ -307,26 +307,104 @@ Outputnya :
 Buat satu halaman HTML baru (portofolio.html) menggunakan Bootstrap yang berisi:
 
 a. Sebuah Navbar di bagian atas:
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/34707919f8ea75f1c1f428183c90b15e0c118210/tugas%203.png)
+```
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfolio Saya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#tentang">Tentang Saya</a></li>
+          <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian Saya</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+```
 
 b. Sebuah section "Tentang Saya" di dalam .container dengan 1 baris (.row) dan 3 kolom (.col-md-4):
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/34707919f8ea75f1c1f428183c90b15e0c118210/tugas%203.1.png)
+```
+<section id="tentang" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Tentang Saya</h2>
+      <div class="row align-items-center">
+```
 
 kolom kiri (.col-md-4) berisi foto Anda (gunakan <img> dengan class .img-fluid).
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/34707919f8ea75f1c1f428183c90b15e0c118210/tugas%203.2.png)
+```
+<div class="col-md-4 text-center">
+          <img src="image/fotoandre.jpg" class="img-fluid rounded-circle shadow-sm" alt="Foto Saya">
+        </div>
+```
 
 Kolom kanan (.col-md-8) berisi nama dan deskripsi diri Anda.
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/34707919f8ea75f1c1f428183c90b15e0c118210/tugas%203.3.png)
+```
+<div class="col-md-8">
+          <h3>ANDREAN PUTRA ARYA</h3>
+          <p class="text-muted">
+            Saya adalah mahasiswa yang memiliki ketertarikan di bidang teknologi dan pengembangan web. 
+            Saya fokus dalam membangun tampilan antarmuka yang menarik dan efisien menggunakan HTML, CSS, Bootstrap, dan JavaScript.
+          </p>
+          <p>
+            Saya juga mempelajari backend development menggunakan PHP dan MySQL agar dapat membuat aplikasi web yang dinamis dan terintegrasi dengan basis data.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+```
 
 c. Sebuah section "Portofolio Saya" di dalam .container dengan 1 baris (.row) dan 3 kolom (.col-md-4):
 
 Setiap kolom berisi satu komponen .card yang merepresentasikan satu proyek (beri gambar dummy dan deskripsi singkat).
+```
+<section id="keahlian" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Keahlian Saya</h2>
+      <div class="row g-4">
+        
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm text-center">
+            <img src="image/htmlcss.webp" class="card-img-top" alt="HTML & CSS">
+            <div class="card-body">
+              <h5 class="card-title">HTML & CSS</h5>
+              <p class="card-text">Menguasai struktur HTML, styling CSS, dan pembuatan layout responsif dengan Bootstrap.</p>
+              <div class="progress" style="height: 15px;">
+                <div class="progress-bar bg-primary" style="width: 90%;">90%</div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/34707919f8ea75f1c1f428183c90b15e0c118210/tugas%203.4.png)
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm text-center">
+            <img src="image/js.png" class="card-img-top" alt="JavaScript">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">Mampu membuat interaksi dinamis dan memanipulasi DOM untuk meningkatkan user experience.</p>
+              <div class="progress" style="height: 15px;">
+                <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm text-center">
+            <img src="image/phpsql.png" class="card-img-top" alt="PHP & MySQL">
+            <div class="card-body">
+              <h5 class="card-title">PHP & MySQL</h5>
+              <p class="card-text">Dapat membuat aplikasi web dinamis dan mengelola database menggunakan PHP & MySQL.</p>
+              <div class="progress" style="height: 15px;">
+                <div class="progress-bar bg-warning text-dark" style="width: 75%;">75%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+```
 
 Outputnya :
 
