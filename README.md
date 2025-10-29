@@ -408,8 +408,8 @@ Setiap kolom berisi satu komponen .card yang merepresentasikan satu proyek (beri
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/34707919f8ea75f1c1f428183c90b15e0c118210/output%20tugas%203.png)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/e91d298e967fc107ff57a6f9dc34e64710fc6d24/image/Screenshot%20from%202025-10-29%2019-40-11.png)
 
 Menu keahlian saya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/34707919f8ea75f1c1f428183c90b15e0c118210/output%20tugas%203.1.png)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/e91d298e967fc107ff57a6f9dc34e64710fc6d24/image/Screenshot%20from%202025-10-29%2019-40-32.png)
