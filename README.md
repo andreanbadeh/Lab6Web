@@ -102,12 +102,22 @@ Outputnya :
 Card adalah container konten yang fleksibel.
 
 Code:
-
-![gambar](https://github.com/M-Rakha/Lab6Web/blob/main/gambar%205.png?raw=true)
-
+```
+<div class="container">
+    <div class="card" style="width: 18rem;">
+      <img src="image/andre.jpg"
+           class="card-img-top" alt="Andre Logo">
+      <div class="card-body">
+        <h5 class="card-title">Judul Card</h5>
+        <p class="card-text">Ini adalah deskripsi singkat di dalam card.</p>
+        <a href="#" class="btn btn-primary">Lihat Detail</a>
+      </div>
+    </div>
+  </div>
+```
 Outputnya :
 
-![gambar](https://github.com/M-Rakha/Lab6Web/blob/main/output%205.png?raw=true)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/824607d3567b7f9f5b00ce475d9dd54762157c52/image/Screenshot%20from%202025-10-29%2018-58-22.png)
 
 # 6. Komponen: Form (Formulir)
 Bootstrap men-style elemen form agar terlihat rapi dan konsisten.
