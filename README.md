@@ -41,11 +41,6 @@ Code:
 
 .container-fluid: Memberikan lebar penuh 100%
 
-Code:
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/bf4edae05350d0aa42dafebea5534d16728b6422/gambar%201.1.png)
-
-Outputnya :
 
 ![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/bf4edae05350d0aa42dafebea5534d16728b6422/output%201.png)
 
