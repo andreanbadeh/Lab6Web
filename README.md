@@ -238,7 +238,7 @@ Gunakan komponen .card Bootstrap:
 
 Outputnya :
 
-![gambar](https://github.com/M-Rakha/Lab6Web/blob/main/output%20tugas%201.png?raw=true)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/aed4b08fa28b2d23da20ab23d5fbabe630ca5621/image/Screenshot%20from%202025-10-29%2019-14-10.png)
 
 # 2. Refactor Form Praktikum 5
 Ambil salah satu form dari Praktikum5 (misalnya Form Input 23 atau Form Button 24).
