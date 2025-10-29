@@ -57,12 +57,16 @@ Itu adalah Layout Praktikum4 yang sudah saya ubah ke Bootstrap.
 Bootstrap menyediakan berbagai style tombol.
 
 Code:
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/510de04d5c4290da3e76b39ae0fd030f1841f17f/gambar%203.png)
+```
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-danger">Danger</button>
+```
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/510de04d5c4290da3e76b39ae0fd030f1841f17f/output%203.png)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/770ba1f98ee3f9f6d9cb2c150a8ce44aeb890f18/image/Screenshot%20from%202025-10-29%2018-45-14.png)
 
 # 4. Komponen: Navbar (Navigasi)
 Membuat Navigasi responsive
