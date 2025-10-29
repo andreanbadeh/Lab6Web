@@ -72,12 +72,31 @@ Outputnya :
 Membuat Navigasi responsive
 
 Code:
+```
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">Praktikum 6</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/510de04d5c4290da3e76b39ae0fd030f1841f17f/gambar%204.png)
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Artikel</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+```
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/510de04d5c4290da3e76b39ae0fd030f1841f17f/output%204.png)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/080a69fa41bee66cde18c9c282430d6d85e4467c/image/Screenshot%20from%202025-10-29%2018-48-29.png)
 
 # 5. Komponen: Card (Kartu)
 Card adalah container konten yang fleksibel.
