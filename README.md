@@ -198,8 +198,43 @@ Gunakan class .row dan .col-md-8 untuk _main content_ dan .col-md-4 untuk sideba
 ```
 
 Gunakan komponen .card Bootstrap:
+```
+<section class="col-lg-8">
+        <div class="row text-center mb-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="https://dummyimage.com/120/db7d25/fff.png" class="card-img-top rounded-circle mx-auto mt-3" style="width:120px;">
+              <div class="card-body">
+                <h5 class="card-title">Heading</h5>
+                <p class="card-text">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                <a href="#" class="btn btn-outline-primary">View detail</a>
+              </div>
+            </div>
+          </div>
 
-![gambar](https://github.com/M-Rakha/Lab6Web/blob/main/tugas%201.3.png?raw=true)
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="https://dummyimage.com/120/3e73e6/fff.png" class="card-img-top rounded-circle mx-auto mt-3" style="width:120px;">
+              <div class="card-body">
+                <h5 class="card-title">Heading</h5>
+                <p class="card-text">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                <a href="#" class="btn btn-outline-primary">View detail</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="https://dummyimage.com/120/71e6d4/fff.png" class="card-img-top rounded-circle mx-auto mt-3" style="width:120px;">
+              <div class="card-body">
+                <h5 class="card-title">Heading</h5>
+                <p class="card-text">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                <a href="#" class="btn btn-outline-primary">View detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+```
 
 Outputnya :
 
