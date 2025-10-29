@@ -151,15 +151,51 @@ Outputnya :
 Ambil layout web sederhana dari Praktikum4. Buat ulang layout tersebut menggunakan Bootstrap Grid System.
 
 Gunakan <nav> Bootstrap untuk bagian navigasi:
+```
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">MySite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-![gambar](https://github.com/M-Rakha/Lab6Web/blob/main/tugas%201.png?raw=true)
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="artikel.html">Artikel</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+```
 
 Gunakan class .row dan .col-md-8 untuk _main content_ dan .col-md-4 untuk sidebar:
+```
+<section id="main" class="col-md-8"
+```
+```
+      <aside class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-header bg-primary text-white">Widget Header</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="#">Widget Link</a></li>
+            <li class="list-group-item"><a href="#">Widget Link</a></li>
+            <li class="list-group-item"><a href="#">Widget Link</a></li>
+            <li class="list-group-item"><a href="#">Widget Link</a></li>
+            <li class="list-group-item"><a href="#">Widget Link</a></li>
+          </ul>
+        </div>
 
-![gambar](https://github.com/M-Rakha/Lab6Web/blob/main/tugas%201.1.png?raw=true)
-
-
-![gambar](https://github.com/M-Rakha/Lab6Web/blob/main/tugas%201.2.png?raw=true)
+        <div class="card">
+          <div class="card-header bg-success text-white">Widget Text</div>
+          <div class="card-body">
+            <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis.</p>
+          </div>
+        </div>
+      </aside>
+```
 
 Gunakan komponen .card Bootstrap:
 
