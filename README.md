@@ -123,12 +123,28 @@ Outputnya :
 Bootstrap men-style elemen form agar terlihat rapi dan konsisten.
 
 Code:
+```
+<div class="container my-5">
+    <h3>Hubungi Saya</h3>
+    <form>
+      <div class="mb-3">
+        <label for="emailInput" class="form-label">Alamat Email</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="nama@contoh.com">
+      </div>
 
-![gambar](https://github.com/M-Rakha/Lab6Web/blob/main/gambar%206.png?raw=true)
+      <div class="mb-3">
+        <label for="pesanText" class="form-label">Pesan</label>
+        <textarea class="form-control" id="pesanText" rows="3" placeholder="Tulis pesan kamu di sini..."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Kirim</button>
+    </form>
+  </div>
+```
 
 Outputnya :
 
-![gambar](https://github.com/M-Rakha/Lab6Web/blob/main/output%206.png?raw=true)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/cbcf40018b565ec0e68afb1327423eb9f1394856/image/Screenshot%20from%202025-10-29%2019-01-38.png)
 
 # Pertanyaan dan Tugas
 # 1. Refactor Layout Praktikum 4
