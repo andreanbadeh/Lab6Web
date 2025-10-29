@@ -248,12 +248,60 @@ Buat ulang form tersebut agar terlihat rapi menggunakan class-class form Bootstr
 Disini saya menggunakan Form Input :
 
 Code:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Genap Ganjil - Bootstrap</title>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/34707919f8ea75f1c1f428183c90b15e0c118210/tugas%202.png)
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <script>
+    function test() {
+      var val1 = document.getElementById("bilangan").value;
+      var hasil = (val1 % 2 == 0) ? "Bilangan Genap" : "Bilangan Ganjil";
+      document.getElementById("hasil").value = hasil;
+    }
+  </script>
+</head>
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <div class="card shadow-sm mx-auto" style="max-width: 500px;">
+      <div class="card-header bg-primary text-white text-center">
+        <h4>Cek Bilangan Genap atau Ganjil</h4>
+      </div>
+      <div class="card-body">
+        <form name="kirim" onsubmit="return false;">
+          
+          <div class="mb-3">
+            <label for="bilangan" class="form-label">Masukkan Bilangan</label>
+            <input type="number" class="form-control" id="bilangan" name="T1" placeholder="Contoh: 12">
+          </div>
+
+          <div class="mb-3">
+            <label for="hasil" class="form-label">Hasil</label>
+            <input type="text" class="form-control" id="hasil" name="T2" readonly>
+          </div>
+
+          <div class="text-center">
+            <button type="button" class="btn btn-success px-4" onclick="test()">Tebak</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/34707919f8ea75f1c1f428183c90b15e0c118210/output%20tugas%202.png)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/23af1566a90e22101124d229be0450813a468d1c/image/Screenshot%20from%202025-10-29%2019-16-29.png)
 
 # 3. Tugas: Buat Halaman Portofolio Sederhana
 Buat satu halaman HTML baru (portofolio.html) menggunakan Bootstrap yang berisi:
