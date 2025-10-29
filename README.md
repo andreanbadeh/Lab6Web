@@ -42,7 +42,7 @@ Code:
 .container-fluid: Memberikan lebar penuh 100%
 
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/bf4edae05350d0aa42dafebea5534d16728b6422/output%201.png)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/058e49ce21220003bf65a190bf98404d1c6e0639/image/Screenshot%20from%202025-10-29%2018-39-44.png)
 
 # 2. Grid System (Sistem Grid)
 Membuat 3 kolom sama lebar yang di layout Praktikum4 11 harus menggunakan float: left12. Di Bootstrap.
