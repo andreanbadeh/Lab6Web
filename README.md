@@ -49,7 +49,7 @@ Membuat 3 kolom sama lebar yang di layout Praktikum4 11 harus menggunakan float:
 
 Outputnya:
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab6Web/510de04d5c4290da3e76b39ae0fd030f1841f17f/output%202.png)
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/2f3e1bf4cdfd51ae7dc3e8962947ab9990b29d6d/image/Screenshot%20from%202025-10-29%2018-42-57.png)
 
 Itu adalah Layout Praktikum4 yang sudah saya ubah ke Bootstrap.
 
