@@ -147,6 +147,8 @@ Outputnya :
 ![gambar](https://github.com/andreanbadeh/Lab6Web/blob/cbcf40018b565ec0e68afb1327423eb9f1394856/image/Screenshot%20from%202025-10-29%2019-01-38.png)
 
 # Pertanyaan dan Tugas
+![gambar](https://github.com/andreanbadeh/Lab6Web/blob/703150e95da8d76744ce093c427959aa32ff23d3/image/Screenshot%20from%202025-10-30%2013-25-27.png)
+
 # 1. Refactor Layout Praktikum 4
 Ambil layout web sederhana dari Praktikum4. Buat ulang layout tersebut menggunakan Bootstrap Grid System.
 
