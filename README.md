@@ -1,4 +1,4 @@
-# Praktikum 6 - Twitter Bootstrap
+# Praktikum 6 - Bootstrap
 
 NAMA : ANDREAN PUTRA ARYA
 
